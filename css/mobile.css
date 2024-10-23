@@ -1,0 +1,119 @@
+@media(max-width:780px){
+    .pc{display: none;}
+    .m{display: block;}
+#wrapper{padding: 0 10px;}
+header .wrap{
+    padding-top: 20px;
+}
+header .wrap .tittle img{
+    height: 100px;
+   object-fit: cover;
+}
+header .wrap .tittle h1{
+    padding: 0 100px;
+    text-wrap: nowrap;
+    text-align: center;
+    font-size: 40px;
+}
+header .wrap .tittle{gap: 10px;}
+.mprofile{}
+.mprofile .mprotop{}
+.mprofile .mprotop .mfiletxt{
+    display: flex;
+    align-items: center;
+}
+.mprofile .mprotop .mfiletxt .mfiletxt1 p{
+    font-size: 30px;
+    padding-right: 20px;
+    font-weight: 100;
+}
+.mprofile .mprotop .mfiletxt .mfiletxt2 p{
+    font-size: 20px;
+    font-weight: bold;
+}
+.mprofile .mprotop .mfiletxt .mfiletxt3{margin-left: auto;}
+.mprofile .mprotop .mfiletxt .mfiletxt3,
+.mprofile .mprotop .mfiletxt .mfiletxt4,
+.mprofile .mprotop .mfiletxt .mfiletxt5{
+    display: flex;
+    padding-left: 20px;
+}
+.mprofile .mprotop .mfiletxt .mfiletxt3 p,
+.mprofile .mprotop .mfiletxt .mfiletxt4 p,
+.mprofile .mprotop .mfiletxt .mfiletxt5 p{display: none;}
+.mprofile .mprotop .mfiletxt .mfiletxt3:hover p,
+.mprofile .mprotop .mfiletxt .mfiletxt4:hover p,
+.mprofile .mprotop .mfiletxt .mfiletxt5:hover p{display: block;}
+.mprofile .mprotop .mfileimg{
+    width: 100%;
+    height: 400px;
+    border-radius: 20px;
+    background-color: #dddce1;
+}
+.mprofile .mprotop .mfileimg img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 20px;
+}
+.mprofile .mprobtm{}
+.mprofile .mprobtm .mprobtmtxt{}
+.mprofile .mprobtm .mprobtmtxt h5{
+    font-size: 20px;
+    font-weight: bolder;
+    padding-bottom: 5px;
+}
+.mprofile .mprobtm .mprobtmtxt:nth-child(4) .mprobtmtxtimg{
+    display: flex;
+     gap: 5px;
+ }
+
+
+.section .wrap .sectionmore{
+    display: flex;
+    justify-content: center;
+}
+.section .wrap .sectionmore img{
+    width: 48px;
+    position: absolute;
+    top: 40px;
+    right: 20px;
+    
+}
+.section .wrap .sectionmore .sectxt4 p{font-size: 16px;}
+.yahoo .wrap .yahoobox1 p,
+.police .wrap .policebox1 p,
+.simmons .wrap .simmonsbox1 p{
+    font-size: 16px;
+}
+.yahoo .wrap .yahoobox2,
+.police .wrap .policebox2,
+.simmons .wrap .simmonsbox2{
+    gap: 20px;
+}
+.simmons .wrap .simmonsbox2 .color h4,
+.simmons .wrap .simmonsbox2 .typography h4,
+.simmons .wrap .simmonsbox2 .icon h4{font-size: 14px;}
+
+.simmons .wrap .simmonsbox2 .color .colorbox{font-size: 12px;}
+.simmons .wrap .simmonsbox2 .typography .txtbox{font-size: 12px;}
+.simmons .wrap .simmonsbox3 .meditit h4{font-size: 14px;}
+
+.yahoo .wrap .yahoobox3 .medi,
+.police .wrap .policebox3 .medi,
+.simmons .wrap .simmonsbox3 .medi{font-size: 14px;}
+
+.yahoo .wrap .yahoobox3 .meditit,
+.police .wrap .policebox3 .meditit,
+.simmons .wrap .simmonsbox3 .meditit{gap: 120px;}
+
+.yahoo .wrap .yahoobox4 .wrap .explan .pointimg{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+}
+.yahoo .wrap .yahoobox4 .wrap .explan .pointimg img{
+    width: 250px;
+}
+
+
+}/*breakpoint
